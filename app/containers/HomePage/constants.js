@@ -1,0 +1,15 @@
+export const ADD_POST = 'lifeinvader/HomePage/ADD_POST';
+export const SET_POSTS = 'lifeinvader/HomePage/SET_POSTS';
+export const REMOVE_POST = 'lifeinvader/HomePage/REMOVE_POST';
+export const SET_SUBSCRIPTIONS = 'lifeinvader/HomePage/SET_SUBSCRIPTIONS';
+export const LOAD_POSTS = 'lifeinvader/HomePage/LOAD_POSTS';
+export const SET_INPUT = 'lifeinvader/HomePage/SET_INPUT';
+export const TOGGLE_PHOTO_MODAL = 'lifeinvader/HomePage/TOGGLE_PHOTO_MODAL';
+export const TOGGLE_NICKNAME_MODAL = 'lifeinvader/HomePage/TOGGLE_NICKNAME_MODAL';
+export const SET_NICKNAME = 'lifeinvader/HomePage/SET_NICKNAME';
+export const START_EDITING_POST = 'lifeinvader/HomePage/START_EDITING_POST';
+export const FINISH_EDITING_POST = 'lifeinvader/HomePage/FINISH_EDITING_POST';
+export const SET_POST_TEXT = 'lifeinvader/HomePage/SET_POST_TEXT';
+export const TOGGLE_LIKE = 'lifeinvader/HomePage/TOGGLE_LIKE';
+export const POST_ADDED = 'lifeinvader/HomePage/POST_ADDED';
+export const TOGGLE_STATUS_MODAL = 'lifeinvader/HomePage/TOGGLE_STATUS_MODAL';

@@ -1,0 +1,27 @@
+button {
+    height: fit-content;
+    text-align: center;
+    min-height: 26px;
+    min-width: 26px;
+    line-height: 18px;
+    width: fit-content;
+    padding: 3px 9px;
+    font-size: 12px;
+
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+
+    background: #da4f49 linear-gradient(to bottom, #ee5f5b, #bd362f);
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    word-wrap: unset;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, #cf4f4c, #bd362f);
+    cursor: pointer;
+}

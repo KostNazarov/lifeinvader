@@ -1,0 +1,147 @@
+.post {
+    position: relative;
+    margin-bottom: 16px;
+
+    padding: 16px 16px 8px 16px;
+    border: 1px #EBC2C2 solid;
+
+    word-wrap: break-word;
+    background-color: #fff;
+}
+
+.post-info {
+    padding: 8px;
+    border-bottom: 1px #fbb solid;
+
+    background-color: #FBF2F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-hidden {
+    display: none;
+}
+
+.post-shortened {
+    max-height: 512px;
+    overflow: hidden;
+}
+
+.post-content {
+    /*border-bottom: 1px #EBC2C2 solid;*/
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.post-subinfo {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px #EBC2C2 solid;
+
+    display: flex;
+    justify-content: space-between;
+    color: #a1a1a1;
+    background-color: #fff;
+}
+
+.post-float-button {
+    margin-left: 4px;
+
+    width: 28px;
+    /*height: 28px;*/
+
+    transition-duration: 0.25s;
+    /*opacity: 0.75;*/
+}
+.post-float-button:hover {
+    opacity: 1.0;
+}
+
+.button-like {
+    margin-left: 4px;
+}
+
+.post-left-buttons-container {
+    height: 26px;
+    padding-bottom: 8px;
+}
+
+.post-right-buttons-container {
+    height: 26px;
+    padding-bottom: 8px;
+}
+
+.post-float-buttons {
+    position: sticky;
+    top: 96px;
+}
+
+.post-user-info {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.post-sub-info {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.post-date {
+    /*margin-right: 8px;*/
+}
+
+.post-image {
+    background-color: #fff;
+    padding: 3px;
+    border: 1px #EBC2C2 solid;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.post-name {
+    margin-left: 8px;
+}
+
+.post-video {
+    margin: 0 auto;
+
+    width: 100%;
+    height: 315px;
+}
+
+.post-video-iframe {
+    border: none;
+}
+
+.post-mention {
+    background-color: #fcd3d3;
+}
+
+.post-private {
+    background-color: orange;
+}
+
+@media only screen and (max-width: 740px) {
+    .post-float-button {
+        opacity: 1.0;
+    }
+
+    .post-left-buttons-container {
+        left: 0;
+    }
+
+    .post-right-buttons-container {
+        right: 0;
+    }
+}

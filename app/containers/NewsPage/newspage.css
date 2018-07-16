@@ -1,0 +1,14 @@
+.read-messages-list {
+    opacity: 0.5;
+}
+
+.news-info {
+    line-height: 26px;
+    display: block;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.news-info__button {
+    width: 100%;
+}
